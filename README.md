@@ -20,7 +20,7 @@ This project is more complicated than it looks like, especially for the hero par
   - line-height: using numbers, so when element's font-size change, the line height will be reflected properly
 
   - when the width of the content is contained in the middle of the page, use a general class "wrapper" to limit the width, and apply it to different sections of the page, 
-e.g <header>, <main>,<footer>
+e.g header, main,footer
 
 ```css
 :root {
