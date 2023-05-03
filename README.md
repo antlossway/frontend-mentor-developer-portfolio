@@ -12,14 +12,15 @@ This is my solution to the [Single-page developer portfolio challenge on Fronten
 
 This project is more complicated than it looks like, especially for the hero part, there are some moving elements like the profile photo and a circle(decoration). Also font size is changing depends on the screen size.
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://frontend-mentor-developer-portfolio.vercel.app
 
 ## What I learned
 
-- basic HTML
-- line-height: using numbers, so when element's font-size change, the line height will be reflected properly
+### basic HTML
+  - line-height: using numbers, so when element's font-size change, the line height will be reflected properly
 
-- when the width of the content is contained in the middle of the page, use a general class "wrapper" to limit the width, and apply it to different sections of the page, e.g <header>, <main>,<footer>
+  - when the width of the content is contained in the middle of the page, use a general class "wrapper" to limit the width, and apply it to different sections of the page, 
+e.g <header>, <main>,<footer>
 
 ```css
 :root {
@@ -44,7 +45,7 @@ This project is more complicated than it looks like, especially for the hero par
 }
 ```
 
-- style anchor tag/link as a button (in this project, link appear as has a green underline)
+### style anchor tag/link as a button (in this project, link appear as has a green underline)
 
 ```html
 <a href="#contact" class="btn">Contact me</a>
@@ -68,7 +69,7 @@ This project is more complicated than it looks like, especially for the hero par
 }
 ```
 
-- typography for responsive design
+### typography for responsive design
   using clamp, the logo text is 24px on mobile and 32px on tablet
   https://royalfig.github.io/fluid-typography-calculator/
   min font size: 24px
@@ -84,7 +85,7 @@ This project is more complicated than it looks like, especially for the hero par
   }
   ```
 
-- using different profile images based on screen size.
+### using different profile images based on screen size.
 
 ```css
     <picture>
@@ -101,7 +102,7 @@ This project is more complicated than it looks like, especially for the hero par
     </picture>
 ```
 
-- draw a horizontal line as separation between setions, we can use <hr> or border-bottom on the section
+### draw a horizontal line as separation between setions, we can use <hr> or border-bottom on the section
 
 ```css
 hr {
@@ -112,7 +113,7 @@ hr {
 }
 ```
 
-- to center an item with postion:absolute
+### to center an item with postion:absolute
 
 ```css
 .hero__img {
@@ -135,8 +136,9 @@ or
 }
 ```
 
-- hover effect over the project part: when mouse over, picture will have a dark overlay shade and the link button is moved into the middle of the project image location.
-  use opacity to control the visibility of an element.
+### hover effect over the project part
+when mouse over, picture will have a dark overlay shade and the link button is moved into the middle of the project image location.
+use opacity to control the visibility of an element.
 
 ```css
 @media screen and (min-width: 62.5em) {
@@ -160,7 +162,7 @@ or
 }
 ```
 
-- basic form validation without javascript
+### basic form validation without javascript
 
 ```css
 .contact__invalid-icon {
@@ -178,4 +180,4 @@ or
 ## Useful resources
 
 I took reference to youtuber thecodercoder's [github code](https://github.com/thecodercoder/fem-single-page-developer-portfolio).
-She has 4-part video for this project, however they are very long videos, I don't recommend them because they look like recorded live stream without editing and you will watch her spend 30min to troubleshooting a minor issue.
+She has 4-part video for this project, however they are very long videos, I skipped most part of the videos because they look like recorded live stream without editing and you will watch her spending 30min to troubleshooting a minor issue.
